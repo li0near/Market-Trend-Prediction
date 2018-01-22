@@ -1,2 +1,1 @@
-Date, Company, price, fblikes, fbBads, twittelikes, BIlikes, Redditposts, TDJIA,=> T+1DJIA, T+30DJIA
-ASC yyyy-mm-dd, ASC, 
+Date, Company, price, fblikes, fbBads, twitterlikes, BIlikes, Redditposts, DJIA => T+1DJIA, T+30DJIA
