@@ -10,8 +10,8 @@ This is a course project of Building Knowledge Graph. The goal of this project i
 2. **Unstructured data**: using [ACHE](https://github.com/ViDA-NYU/ache) to scrape Business Insider articles and Reddit financial threads.
 3. Product golssary: the names of products of each company were collected from [DBpedia](http://wiki.dbpedia.org), [Wikipedia](https://www.wikipedia.org) and their official websites. The glossary may not be exhaustive but was sufficient enough for the project purpose.
 
-Data collecting range: Aug 1, 2016 to Nov 30, 2017.
-Training data range: Aug 1, 2016 to Oct 31, 2017.
+Data collecting range: Aug 1, 2016 to Nov 30, 2017.  
+Training data range: Aug 1, 2016 to Oct 31, 2017.  
 Number of records: Business Insider (2,017), Reddit Finance (4,383), Facebook (11,528), Yahoo Finance(10,478), Twitter (24,271).
 
 ### Data Manipulation
@@ -53,7 +53,7 @@ avg / total    1.00      1.00      1.00        23
 |[Data Integration program](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/dataintegration.py)| This program based on csv file of Dow30 companies and add with facebook, twitter social media likes, dislikes into csv for machine learning input. |[Source Code](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/dataintegration.py)|
 |[Facebook Crawler for Dow30](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/facebook-crawler-dow30.py)| This is a crawler program to crawl facebook post via facebook graph api. A special facebook id and Dow 30 companies dictionary are integrated into this version. A CSV with like, dislike will provide by this program for machine learning. |[Source Code](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/facebook-crawler-dow30.py)|
 |[Yahoo Crawler for Dow30](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/yahoo_quote_crawler.py)| This is a crawler program to crawl yahoo finance stock price via yahoo api. A special ticker id and Dow 30 companies dictionary are integrated into this version. A CSV with full company name will provide by this program for machine learning purpose. Input a list of stock ticker and time period for those price data. |[Source Code](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/yahoo_quote_crawler.py)|
-|[Twitter Crawler for Dow30 Companies](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/tweetScraper.py)| This program scrapes the offcial Titter accounts of Dow components |[Source Code](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/tweetScraper.py)|
+|[Twitter Crawler for Dow30 Companies](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/tweetScraper.py)| This program scrapes posts of the offcial Twitter accounts of the Dow components |[Source Code](https://github.com/Cheng-Lin-Li/Market-Trend-Prediction/blob/master/source/tweetScraper.py)|
 
 ### Team members
 
@@ -65,5 +65,5 @@ Oct., 2017@University of Southern California
 
 ## Contact Information
 
-Cheng-Lin Li: chenglil@usc.edu
+Cheng-Lin Li: chenglil@usc.edu  
 Yucheng Guo: yuchengg@usc.edu
