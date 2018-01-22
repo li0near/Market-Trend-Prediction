@@ -58,8 +58,6 @@ avg / total    1.00      1.00      1.00        23
 
 [Cheng-Lin Li](https://github.com/Cheng-Lin-Li/) & [YuCheng Guo](https://github.com/li0near)
 
-### Date: Project kick off date
-
 Oct., 2017@University of Southern California
 
 ## Contact Information
